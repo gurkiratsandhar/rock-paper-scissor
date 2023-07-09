@@ -1,0 +1,109 @@
+body, html{
+    height:100%;
+    margin:0;
+    background-image: url("img/arcade.jpg");
+    height: 100%;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.layout{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width:100%
+}
+
+.user{
+    background-color:#59ffff;;
+    border: 7px solid #e9b2c3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:25%;
+    padding:20px
+}
+
+
+.computer{
+    background-color: #59ffff;
+    border: 7px solid #e9b2c3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:25%;
+    padding:20px
+}
+.text,.text1{
+    font-size: larger;
+    font-family: sans-serif;
+    color:#063bcc;
+    background-color: #59ffff;
+    border:2px solid #e9b2c3;
+    border-radius: 20px;
+    margin:10px;
+    padding:20px;
+    width:50%;
+    text-align: center;
+}
+
+.result{font-size: larger;
+    font-family: sans-serif;
+    color:#563f69;
+    background-color: #9fb1f9;
+    width:50%;
+    text-align: center;
+    border: 5px solid wheat;
+    border-radius: 10px;
+    padding: 30px;;
+
+}
+.olayout{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+
+}
+
+.button{
+    display: flex;
+    width:50%;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px ;
+    ;
+}
+
+.btn{
+    font-size: 20px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right:40px;
+    font-family: sans-serif;
+    color:#0e6b02;
+    background-color: #1effa3;
+    border-color:#aefab2;
+
+}
+.score{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+
+}
+
+.user.score, .computer.Score{
+    width:33%;
+    font-size: larger;
+    font-family: sans-serif;
+    color:#063bcc;
+    background-color: #59ffff;
+    border: 7px solid #e9b2c3;
+
+}
